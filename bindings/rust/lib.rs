@@ -10,7 +10,7 @@
 //!
 //! "#;
 //! let mut parser = tree_sitter::Parser::new();
-//! let language = tree_sitter_svelte_ng::LANGUAGE;
+//! let language = tree_sitter_svelte::LANGUAGE;
 //! parser
 //!     .set_language(&language.into())
 //!     .expect("Error loading Svelte parser");
